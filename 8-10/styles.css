@@ -1,0 +1,38 @@
+body {
+    background-color: purple;
+}
+
+@media  {
+    main {
+        background-color: red;
+    }
+    
+}
+
+.container {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    
+}
+
+.item {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    background-color: green;
+    height: 10rem;
+    width: 10rem;
+    font-size: 4rem;
+}
+
+.item .a {
+    order: 1;
+}
+.item.b {
+    order: 2;
+}
+.item.c {
+    order: 3;
+}
